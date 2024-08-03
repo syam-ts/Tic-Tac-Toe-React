@@ -65,7 +65,7 @@ function TicTacToe() {
         if(winner === "x") {
             titleRef.current.innerHTML = `Congragulations : <img src=${cross_icon}>`
         } else {
-            titleRef.current.innerHTML = `Comgragulations : <img src=${circle_icon}>`
+            titleRef.current.innerHTML = `Congragulations : <img src=${circle_icon}>`
         }
     }
 
